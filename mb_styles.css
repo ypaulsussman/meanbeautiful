@@ -1,3 +1,5 @@
+/*the color palette you're using:  http://paletton.com/#uid=5020u0k7j708zcX7I9ubo8WgO9Y     */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -17,19 +19,44 @@ html, body {
 
 .header a{
   text-decoration: none;
-  /*color:*/
+  color: #674D4C;
+  padding: 0 1rem;
+  border-radius: 3px;
+  line-height: 1.5rem;
+  vertical-align: middle;
 }
+
+.header li :hover {
+  background-color: #727272;
+  color: #2E2329;
+}
+
 
 /*======================== jumbotron ======================== */
 
+.jumbotron .container {
+  background-color: transparent;
+}
 
-.jumbotron h1, .jumbotron h2{
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.1);
+.jumbotron h1, h2{
+    text-align: center;
+    color: #161616
 }
 
 
+/*======================== supporting ======================== */
 
+.supporting p{
+  font-size: 2rem;
+  color: #a08a75;
+
+}
+
+.conanThumb {
+  overflow:hidden;
+  width: 250px;
+  height: 250px;
+}
 
 
 
@@ -37,11 +64,11 @@ html, body {
 /*======================== footer ======================== */
 
 .footer{
-  font-size: 1.5rem;
-  color: #D46A6A;
-  background-color:
+  font-size: 1.2rem;
+  color: #674D4C;
 }
 
 .footer p{
   font-family: Arial, sans-serif;
+  text-align: right;
 }
