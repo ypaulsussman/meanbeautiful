@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Crimson Text', serif;
+  font-size: 10px;
+  background-color: black;
+}
+
+.container{
+  background-color: #161616;
+}
+/*======================== header ======================== */
+.header {
+  text-align: right;
+  font-size: 3rem;
+}
+
+.header a{
+  text-decoration: none;
+  /*color:*/
+}
+
+/*======================== jumbotron ======================== */
+
+
+.jumbotron h1, .jumbotron h2{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+/*======================== footer ======================== */
+
+.footer{
+  font-size: 1.5rem;
+  color: #D46A6A;
+  background-color:
+}
+
+.footer p{
+  font-family: Arial, sans-serif;
+}
