@@ -46,20 +46,38 @@ html, body {
 
 /*======================== supporting ======================== */
 
-.supporting p{
+.textholder{
+  position: relative;
+}
+
+.supporting .container p{
   font-size: 2rem;
   color: #a08a75;
-
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
 }
 
-.conanThumb {
-  overflow:hidden;
+.supporting .container .thumb {
+  margin: 2rem auto;
   width: 250px;
   height: 250px;
+  border-radius: 3px;
+  box-shadow: inset .5rem .5rem 1rem rgba(255, 255, 255, 0.4), inset -.5rem -.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 
+#conan {
+  background: url("images/conan_lander.jpg") 50% 50% no-repeat;
+}
 
+#inq {
+  background: url("images/inq_lander.jpg") 50% 50% no-repeat;
+}
 
+#lawrence{
+  background: url("images/lawrence_lander.jpg") 50% 50% no-repeat;
+}
 
 /*======================== footer ======================== */
 
@@ -69,6 +87,7 @@ html, body {
 }
 
 .footer p{
+  padding-top: 3rem;
   font-family: Arial, sans-serif;
   text-align: right;
 }
