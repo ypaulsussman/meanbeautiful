@@ -46,17 +46,20 @@ html, body {
 
 /*======================== supporting ======================== */
 
-.textholder{
+.textholder {
+  height: 100%;
   position: relative;
 }
 
-.supporting .container p{
+.supporting p {
   font-size: 2rem;
   color: #a08a75;
   text-align: justify;
+
+  height: 100%;
   position: absolute;
   top: 50%;
-  transform: translateY(50%);
+  transform: translate(0, -50%)
 }
 
 .supporting .container .thumb {
