@@ -17,15 +17,31 @@ html, body {
 .header a{
   text-decoration: none;
   color: #674D4C;
-  padding: 0 1rem;
+  margin: 0 .5rem;
   border-radius: 3px;
   line-height: 1.5rem;
-  vertical-align: middle;
+
 }
 
-.header li :hover {
+div.header > div.container > ul.nav > li.dropdown > a.dropdown-toggle:hover {
   background-color: #727272;
   color: #2E2329;
+}
+
+div.header > div.container > ul.nav > li.dropdown > a.dropdown-toggle:focus {
+  background-color: #727272;
+  color: #2E2329;
+}
+
+.dropdown-menu{
+  background-color: #727272;
+  color: #2E2329;
+  font-size: 2rem;
+}
+
+div.header > div.container > ul.nav > li.dropdown a.genre:hover {
+  background-color: #636363;
+  color: #a08a75;
 }
 
 
@@ -46,7 +62,7 @@ html, body {
 .jumbotron h1, h2{
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 3px #161616;
+    text-shadow: 0 0 5px #161616;
 }
 
 
